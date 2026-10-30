@@ -1,0 +1,39 @@
+# Backend
+backend/.venv/
+backend/.env
+backend/data/*.db
+backend/data/uploads/
+backend/**/__pycache__/
+backend/.pytest_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/*.tsbuildinfo
+
+# Python cache and test files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Additional database files
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Editor settings
+.vscode/
+.idea/
